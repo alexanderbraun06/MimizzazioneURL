@@ -10,7 +10,7 @@ namespace MimizzazioneURL.Data
     {
         [Key]
         public int UrlDataId { get; set; }
-        public int PromotionId { get; set; }
+        public Guid PromotionId { get; set; }
         public string UrlText { get; set; }
         public string MinifiedCode { get; set; }
         public int ClickCount { get; set; }

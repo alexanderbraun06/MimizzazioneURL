@@ -7,7 +7,7 @@ namespace MimizzazioneURL.Data
     public class Promotions
     {
         [Key]
-        public int PromotionId { get; set; }
+        public Guid PromotionId { get; set; }
         public string Description { get; set; }
     }
 }
